@@ -252,8 +252,8 @@ const Page = () => {
                   : "Landing Page Personalizable:"}
               </span>{" "}
               {language === "en"
-                ? "A unique and adaptable design that reflects your business identity, highlighting the restaurant's values and services with a sleek and modern style that reinforces a professional image and builds customer trust."
-                : "Diseño único y adaptable que refleja la identidad de tu negocio, destacando los valores y servicios del restaurante, con un estilo elegante y moderno que refuerza la imagen profesional y transmite confianza a los clientes."}
+                ? "A unique and adaptable design that reflects your business identity, highlighting the restaurant's values and services with a style that reinforces a professional image and builds customer trust."
+                : "Diseño único y adaptable que refleja la identidad de tu negocio, destacando los valores y servicios del restaurante, con un estilo que refuerza la imagen profesional y transmite confianza a los clientes."}
             </m.li>
             <m.li
               variants={opacityAnimation}
