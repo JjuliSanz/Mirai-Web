@@ -31,9 +31,9 @@ const config: Config = {
         logo: ["var(--logo-font)"],
       },
       fontSize: {
-        fluid: 'clamp(0.875rem, 3vw, 1.25rem)', 
+        fluid: 'clamp(0.9rem, 3vw, 1.4rem)', 
         fluidBig: 'clamp(1rem, 3vw, 1.5rem)',
-        fluidTitle: 'clamp(1.3rem, 5vw, 2rem)',
+        fluidTitle: 'clamp(1.1rem, 5vw, 2rem)',
       },
     },
   },

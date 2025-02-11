@@ -45,7 +45,7 @@ const Contact = () => {
         >
           <Background isInView={isInView} />
 
-          <m.div className="w-full flex flex-col gap-10 items-center justify-center ">
+          <m.div className="w-full flex flex-col gap-6 sm:gap-10 items-center justify-center ">
             <NoiseText
               text={language === "en" ? "CONTACT US" : "CONTACTANOS"}
               addClass="tracking-wider font-bold text-center neon font-primary"

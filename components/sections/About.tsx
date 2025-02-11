@@ -24,13 +24,13 @@ const About = () => {
           animate={isInView && "visible"}
           variants={cont}
           ref={ref}
-          className="w-full max-w-[95%] lg:max-w-[70%] max-h-[98vh] mx-auto flex flex-col justify-center items-center gap-4 backdrop-blur-md  p-6 overflow-hidden relative rounded-xl"
+          className="w-full max-w-[95%] lg:max-w-[70%] max-h-[98vh] mx-auto flex flex-col justify-center items-center gap-2 sm:gap-4 backdrop-blur-md  p-6 overflow-hidden relative rounded-xl"
         >
           <Background isInView={isInView} />
 
           <NoiseText
             text={language === "en" ? "ABOUT US" : "SOBRE NOSOTROS"}
-            addClass="tracking-wider font-bold text-center neon font-primary"          
+            addClass="tracking-wider font-bold text-center neon font-primary"
             fontSizeClass="text-fluidTitle"
             variantProp={opacityAnimation}
           />
@@ -56,19 +56,11 @@ const About = () => {
               )
             }
             addClass="font-secondary font-medium"
-            customStyle={{ textShadow: "0px 0px 10px var(--cuarto)" }}
-            fontSizeClass="text-fluid"
-            variantProp={opacityAnimation}
-          />
-          <NoiseText
-            text={
-              language === "en"
-                ? "We're more than just a web lab, we're digital architects of the future. Whether you need a bold online presence, a customized user experience, or a tech-forward solution that stands out, Mirai Web Lab is here to bring your vision to life."
-                : "No somos solo un laboratorio web, somos arquitectos digitales del futuro. Ya sea que necesites una presencia online audaz, una experiencia de usuario personalizada o una solución tecnológica innovadora, Mirai Web Lab está aquí para hacer realidad tu visión."
-            }
-            addClass="font-secondary font-medium"
-            customStyle={{ textShadow: "0px 0px 10px var(--cuarto)" }}
-            fontSizeClass="text-fluid"
+            customStyle={{
+              textShadow: "0px 0px 10px var(--cuarto)",
+              fontSize: "clamp(0.9rem, 4vw, 1.5rem)",
+            }}
+            // fontSizeClass="text-fluidBig"
             variantProp={opacityAnimation}
           />
 
@@ -78,9 +70,12 @@ const About = () => {
                 ? "In a world driven by rapid innovation, staying ahead means staying bold. We fuse technology, creativity, and culture to build futuristic, pixel-perfect solutions that leave a lasting impact. Our studio thrives on exploring the edges of digital design, creating experiences that are as visually captivating as they are functional."
                 : "En un mundo impulsado por la innovación rápida, estar a la vanguardia significa ser audaz. Fusionamos tecnología, creatividad y cultura para construir soluciones futuristas y precisas que dejan una impresión duradera. Nuestro estudio se destaca en explorar los límites del diseño digital, creando experiencias visualmente cautivadoras y funcionales."
             }
-            addClass="font-secondary font-medium "
-            customStyle={{ textShadow: "0px 0px 10px var(--cuarto)" }}
-            fontSizeClass="text-fluid"
+            addClass="font-secondary font-medium"
+            customStyle={{
+              textShadow: "0px 0px 10px var(--cuarto)",
+              fontSize: "clamp(0.9rem, 4vw, 1.5rem)",
+            }}
+            // fontSizeClass="text-fluidBig"
             variantProp={opacityAnimation}
           />
 
@@ -91,8 +86,11 @@ const About = () => {
                 : "En Mirai Web Lab, entendemos que tu marca es tu identidad. Creamos diseños únicos y futuristas que no solo representan tu negocio, sino que también capturan la atención de tu audiencia. Nuestro trabajo es audaz, vibrante y memorable, asegurando que tu proyecto destaque en un mundo digital saturado."
             }
             addClass="font-secondary font-medium"
-            customStyle={{ textShadow: "0px 0px 10px var(--cuarto)" }}
-            fontSizeClass="text-fluid"
+            customStyle={{
+              textShadow: "0px 0px 10px var(--cuarto)",
+              fontSize: "clamp(0.9rem, 4vw, 1.5rem)",
+            }}
+            // fontSizeClass="text-fluidBig"
             variantProp={opacityAnimation}
           />
           <NoiseText

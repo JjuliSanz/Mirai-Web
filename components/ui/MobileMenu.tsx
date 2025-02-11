@@ -1,5 +1,5 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   m,
   LazyMotion,
@@ -8,6 +8,8 @@ import {
   useScroll,
   useMotionValueEvent,
   useAnimate,
+  useMotionValue,
+  useTransform,
 } from "framer-motion";
 import { AboutIcon, HomeIcon, MailIcon, ServiceIcon } from "@/assets/icons";
 import Link from "next/link";
@@ -71,26 +73,6 @@ const item = {
   },
 };
 
-const languageButtonVariant = {
-  hidden: {
-    scale: 0.8,
-    opacity: 0,
-    x: "-1100%",
-  },
-  visible: {
-    scale: 1,
-    opacity: 1,
-    x: "-920%",
-  },
-  exit: {
-    opacity: 0,
-    x: "-1100%",
-  },
-  click: {
-    scale: 0.96,
-  },
-};
-
 const Icon = ({ yProp, xProp, icon, iconKey, iconHref }: IconProps) => {
   return (
     <m.div
@@ -113,6 +95,49 @@ const Icon = ({ yProp, xProp, icon, iconKey, iconHref }: IconProps) => {
 
 const LanguageButton = () => {
   const { language, toggleLanguage } = useLanguageStore();
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const updateWidth = () => setScreenWidth(window.innerWidth);
+    window.addEventListener("resize", updateWidth);
+    return () => window.removeEventListener("resize", updateWidth);
+  }, []);
+
+  // Valor dinámico del ancho de la pantalla
+  const widthMotion = useMotionValue(screenWidth);
+
+  // Proporcionalidad entre los valores iniciales y el crecimiento del width
+  const xHidden = useTransform(
+    widthMotion,
+    [320, 1024],
+    [-350, -350 - (1024 - 320)]
+  );
+  const xVisible = useTransform(
+    widthMotion,
+    [320, 1024],
+    [-270, -270 - (1024 - 320)]
+  );
+
+  const languageButtonVariant = {
+    hidden: (custom: any) => ({
+      scale: 0.8,
+      opacity: 0,
+      x: xHidden.get(), // Se obtiene el valor dinámicamente
+    }),
+    visible: (custom: any) => ({
+      scale: 1,
+      opacity: 1,
+      x: xVisible.get(),
+    }),
+    exit: (custom: any) => ({
+      opacity: 0,
+      x: xHidden.get(),
+    }),
+    click: {
+      scale: 0.96,
+    },
+  };
+
   return (
     <m.button
       variants={languageButtonVariant}

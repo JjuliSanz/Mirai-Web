@@ -84,7 +84,7 @@ const Templates = () => {
   return (
     <LazyMotion features={domAnimation}>
       <m.section
-        className="h-screen w-full relative flex items-center justify-center overflow-hidden  z-10"
+        className="h-dvh w-full relative flex items-center justify-center overflow-hidden  z-10"
         style={{ scrollSnapAlign: "center" }}
         id="templates"
       >
