@@ -25,10 +25,10 @@ const Service = () => {
           animate={isInView && "visible"}
           variants={cont}
           ref={ref}
-          className="w-full max-w-[95%] max-h-[98vh] lg:max-h-[95vh] mx-auto flex flex-col lg:flex-row justify-center items-center gap-4 backdrop-blur-md p-4 overflow-hidden relative rounded-xl"
+          className="w-full max-w-[98%] 360:max-w-[95%] max-h-[98vh] lg:max-h-[95vh] mx-auto flex flex-col lg:flex-row justify-center items-center gap-4 backdrop-blur-md p-2 sm:p-4  relative rounded-xl"
         >
           <Background isInView={isInView} />
-          <m.div className="w-full lg:w-[50%] flex flex-col gap-4 items-center justify-center ">
+          <m.div className="w-full lg:w-[50%] flex flex-col gap-2 sm:gap-4 items-center justify-center ">
             <NoiseText
               text={
                 language === "en"

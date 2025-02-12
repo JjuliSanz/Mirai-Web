@@ -107,11 +107,12 @@ const TemplatesSlider = () => {
           >
             <Link
               href={project.page}
-              className={`absolute inset-0 flex items-center justify-center p-4 text-fluid font-bold font-secondary text-cuarto bg-primero/60 border-2 border-cuarto rounded-xl uppercase ${
+              className={`absolute inset-0 flex items-center justify-center p-4 font-bold font-secondary text-cuarto bg-primero/60 border-2 border-cuarto rounded-xl uppercase ${
                 activeSlideIndex === index
                   ? "cursor-pointer"
                   : "pointer-events-none cursor-auto"
               }`}
+              style={{fontSize: "clamp(0.8rem, max(4vw, 2.3vh), 1.8rem)",}}
             >
               {project.title}
             </Link>
