@@ -38,7 +38,7 @@ const Mockups = () => {
   return (
     <m.div
       variants={opacityAnimation}
-      className="w-full min-h-[150px] 360:min-h-[200px] 500:min-h-[280px] 800:min-h-[300px] lg:w-[50%]  xl:scale-100 flex gap-[5%] justify-center items-end relative"
+      className="w-full min-h-[150px] 360:min-h-[200px] 500:min-h-[280px] 800:min-h-[300px] lg:w-[40%]  xl:scale-100 flex gap-[5%] justify-center items-end relative"
     >
       <m.div className="flex z-10 500:pb-4 lg:pb-0">
         {/* TABLET */}

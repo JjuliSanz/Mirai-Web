@@ -32,8 +32,8 @@ const config: Config = {
       },
       fontSize: {
         fluid: 'clamp(0.9rem, max(4vw, 2.5vh), 1.8rem)', 
-        fluidBig: 'clamp(1rem, max(4vw, 2.5vh), 2rem)',
-        fluidTitle: 'clamp(1rem, max(5vw, 2.5vh), 2.5rem)',
+        fluidBig: 'clamp(1rem, max(4vw, 2.5vh), 1.9rem)',
+        fluidTitle: 'clamp(1rem, max(5vw, 2.5vh), 2.4rem)',
       },
     },
   },

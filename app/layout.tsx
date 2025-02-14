@@ -28,7 +28,7 @@ const secondaryFont = Rajdhani({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mirai-web-lab.vercel.app"),
+  metadataBase: new URL("https://www.miraiweblab.com"),
   title: "MIRAI WEB LAB",
   description:
     "We specialize in web development, digital design, and creative solutions with futuristic, innovative concepts. Our approach is all about creating immersive, visually striking websites that feel like stepping into a neon-lit world of endless possibilities.",

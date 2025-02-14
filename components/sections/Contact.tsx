@@ -128,7 +128,7 @@ const Contact = () => {
               {/* Name */}
               <NoiseText
                 text={
-                  <div className="flex flex-col gap-2 md:gap-4 ">
+                  <div className="flex flex-col gap-2  ">
                     <label
                       htmlFor="name"
                       className="text-cuarto font-bold font-secondary text-fluidBig"
@@ -137,6 +137,7 @@ const Contact = () => {
                       {language === "en" ? "Your Name" : " Tu Nombre"}
                     </label>
                     <input
+                      onWheel={(e) => e.stopPropagation()}
                       type="text"
                       name="name"
                       id="name"
@@ -151,6 +152,7 @@ const Contact = () => {
                   </div>
                 }
                 variantProp={opacityAnimation}
+                fontSizeClass="flex-grow"
               />
               <ValidationError
                 prefix="Name"
@@ -161,7 +163,7 @@ const Contact = () => {
               {/* Email */}
               <NoiseText
                 text={
-                  <div className="flex flex-col gap-2 md:gap-4">
+                  <div className="flex flex-col gap-2">
                     <label
                       htmlFor="email"
                       className="text-cuarto font-bold font-secondary text-fluidBig"
@@ -170,6 +172,7 @@ const Contact = () => {
                       {language === "en" ? "Your Email" : "Tu Email"}
                     </label>
                     <input
+                      onWheel={(e) => e.stopPropagation()}
                       type="email"
                       name="email"
                       id="email"
@@ -180,6 +183,7 @@ const Contact = () => {
                   </div>
                 }
                 variantProp={opacityAnimation}
+                fontSizeClass="flex-grow"
               />
               <ValidationError
                 prefix="Email"
@@ -190,7 +194,7 @@ const Contact = () => {
               {/* Message */}
               <NoiseText
                 text={
-                  <div className="flex flex-col gap-2 md:gap-4">
+                  <div className="flex flex-col gap-2 ">
                     <label
                       htmlFor="message"
                       className="text-cuarto font-bold font-secondary text-fluidBig"
@@ -199,7 +203,8 @@ const Contact = () => {
                       {language === "en" ? "Your Message" : "Tu Mensaje"}
                     </label>
                     <textarea
-                      rows={3}
+                      onWheel={(e) => e.stopPropagation()}
+                      rows={2}
                       name="message"
                       id="message"
                       placeholder={
@@ -213,6 +218,7 @@ const Contact = () => {
                   </div>
                 }
                 variantProp={opacityAnimation}
+                fontSizeClass="flex-grow"
               />
               <ValidationError
                 prefix="Message"

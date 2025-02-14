@@ -24,14 +24,14 @@ const About = () => {
           animate={isInView && "visible"}
           variants={cont}
           ref={ref}
-          className="w-full max-w-[98%] sm:max-w-[95%] lg:max-w-[70%] max-h-[98vh] mx-auto flex flex-col justify-center items-center gap-2 sm:gap-4 backdrop-blur-md  p-6 overflow-hidden relative rounded-xl"
+          className="w-full max-w-[98%] sm:max-w-[95%] max-h-[98vh] mx-auto flex flex-col justify-center items-center gap-2 sm:gap-4 backdrop-blur-md  p-6 overflow-hidden relative rounded-xl"
         >
           <Background isInView={isInView} />
 
           <NoiseText
             text={language === "en" ? "ABOUT US" : "SOBRE NOSOTROS"}
             addClass="tracking-wider font-bold text-center neon font-primary"
-            fontSizeClass="text-fluidTitle 1.1rem, 5vw, 2rem"
+            fontSizeClass="text-fluidTitle"
             // customStyle={{fontSize: "clamp(0.9rem, max(5vw, 2vh), 2rem",}}
             variantProp={opacityAnimation}
           />
@@ -59,7 +59,7 @@ const About = () => {
             addClass="font-secondary font-medium"
             customStyle={{
               textShadow: "0px 0px 10px var(--cuarto)",
-              fontSize: "clamp(0.8rem, max(4vw, 2.3vh), 1.8rem)",
+              fontSize: "clamp(0.8rem, max(4vw, 2vh), 1.8rem)",
             }}
             // fontSizeClass="text-fluidBig"
             variantProp={opacityAnimation}
@@ -74,7 +74,7 @@ const About = () => {
             addClass="font-secondary font-medium"
             customStyle={{
               textShadow: "0px 0px 10px var(--cuarto)",
-              fontSize: "clamp(0.8rem, max(4vw, 2.3vh), 1.8rem)",
+              fontSize: "clamp(0.8rem, max(4vw, 2vh), 1.8rem)",
             }}
             // fontSizeClass="text-fluidBig"
             variantProp={opacityAnimation}
@@ -89,7 +89,7 @@ const About = () => {
             addClass="font-secondary font-medium"
             customStyle={{
               textShadow: "0px 0px 10px var(--cuarto)",
-              fontSize: "clamp(0.8rem, max(4vw, 2.3vh), 1.8rem)",
+              fontSize: "clamp(0.8rem, max(4vw, 2vh), 1.8rem)",
             }}
             // fontSizeClass="text-fluidBig"
             variantProp={opacityAnimation}
