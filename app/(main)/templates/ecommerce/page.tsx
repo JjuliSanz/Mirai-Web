@@ -61,11 +61,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Responsive Design:"
                   : "Diseño Responsivo:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "The page is optimized to adapt to any device, ensuring a smooth and consistent experience."
                 : "La página está optimizada para adaptarse a cualquier dispositivo, garantizando una experiencia fluida y consistente."}
@@ -74,11 +74,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Enhanced User Experience:"
                   : "Mejora de la Experiencia del Usuario:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Intuitive navigation, fast load times, and an attractive design to captivate your customers from the first moment."
                 : "Navegación intuitiva, tiempos de carga rápidos y diseño atractivo para cautivar a tus clientes desde el primer momento."}
@@ -87,11 +87,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Organized by Categories:"
                   : "Organizado por Categorías:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Simplify the shopping experience with products grouped into easy-to-navigate categories."
                 : "Simplifica la experiencia de compra con productos organizados en categorías fáciles de navegar."}
@@ -100,11 +100,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Individual Product Pages:"
                   : "Páginas de Producto Individuales:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Highlight each product with high-quality images, detailed descriptions, and pricing to help customers make informed decisions."
                 : "Destaca cada producto con imágenes de alta calidad, descripciones detalladas y precios para ayudar a los clientes a tomar decisiones informadas."}
@@ -113,11 +113,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "User-Friendly Shopping Cart:"
                   : "Carrito de Compras Amigable:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "A simple interface for customers to review their selections, calculate totals, and proceed with their purchase."
                 : "Una interfaz simple para que los clientes revisen sus selecciones, calculen totales y completen su compra."}
@@ -126,11 +126,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Streamlined Checkout Process:"
                   : "Proceso de Pago Simplificado:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Secure and intuitive checkout designed to maximize conversions and minimize cart abandonment."
                 : "Proceso de pago seguro e intuitivo diseñado para maximizar conversiones y minimizar el abandono del carrito."}
@@ -139,11 +139,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Search Engine Optimization (SEO):"
                   : "Optimización para Motores de Búsqueda (SEO):"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Technical setup and structured content to improve the restaurant's visibility on Google and other search engines."
                 : "Configuración técnica y contenido estructurado para mejorar la visibilidad del restaurante en Google y otros buscadores."}

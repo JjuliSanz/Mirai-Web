@@ -36,9 +36,6 @@ const Hero = () => {
         id="home"
         style={{ scrollSnapAlign: "center" }}
       >
-        {/* svg */}
-        {/* <TextMirai /> */}
-
         <m.div
           initial="hidden"
           animate={isInView && "visible"}
@@ -47,6 +44,7 @@ const Hero = () => {
           ref={ref}
           style={{ gap: "clamp(24px, 8vw, 80px)" }}
         >
+          
           <HeroLogo />
 
           <HeroTitle />

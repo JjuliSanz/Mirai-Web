@@ -233,11 +233,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Responsive Design:"
                   : "Diseño Responsivo:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "The page is optimized to adapt to any device, ensuring a smooth and consistent experience."
                 : "La página está optimizada para adaptarse a cualquier dispositivo, garantizando una experiencia fluida y consistente."}
@@ -246,11 +246,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Customizable Landing Page:"
                   : "Landing Page Personalizable:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "A unique and adaptable design that reflects your business identity, highlighting the restaurant's values and services with a style that reinforces a professional image and builds customer trust."
                 : "Diseño único y adaptable que refleja la identidad de tu negocio, destacando los valores y servicios del restaurante, con un estilo que refuerza la imagen profesional y transmite confianza a los clientes."}
@@ -259,11 +259,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Enhanced User Experience:"
                   : "Mejora de la Experiencia del Usuario:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Intuitive navigation, fast load times, and an attractive design to captivate your customers from the first moment."
                 : "Navegación intuitiva, tiempos de carga rápidos y diseño atractivo para cautivar a tus clientes desde el primer momento."}
@@ -272,11 +272,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Comprehensive Restaurant Information:"
                   : "Información Completa del Restaurante:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Includes dedicated sections to detail location, business hours, contact information, and links to social media."
                 : "Incluye secciones dedicadas para detallar ubicación, horarios de atención, datos de contacto y enlaces a redes sociales."}
@@ -285,11 +285,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Exclusive Menu Page:"
                   : "Página Exclusiva para el Menú:"}
-              </span>{" "}
+              </h2>{" "}
               <ul className="ml-2 flex flex-col gap-2 font-medium font-secondary text-sexto">
                 <li>
                   {language === "en"
@@ -312,11 +312,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Optional Shopping Cart:"
                   : "Carrito de Compras Opcional:"}
-              </span>{" "}
+              </h2>{" "}
               <ul className="ml-2 flex flex-col gap-2 font-medium font-secondary text-sexto">
                 <li>
                   {language === "en"
@@ -334,11 +334,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Search Engine Optimization (SEO):"
                   : "Optimización para Motores de Búsqueda (SEO):"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Technical setup and structured content to improve the restaurant's visibility on Google and other search engines."
                 : "Configuración técnica y contenido estructurado para mejorar la visibilidad del restaurante en Google y otros buscadores."}

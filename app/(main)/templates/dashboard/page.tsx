@@ -44,11 +44,11 @@ const Page = () => {
           {/* DESCRIPTION */}
           <m.ul className="list-disc list-inside flex flex-col gap-2 font-medium font-secondary text-sexto text-fluid">
             <m.li style={{ textShadow: "0px 0px 10px var(--cuarto)" }}>
-              <span className="text-cuarto font-semibold text-fluidBig ">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig ">
                 {language === "en"
                   ? "Responsive and Mobile-First Development:"
                   : "Desarrollo Responsivo y Prioridad en Móviles:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "Seamless performance across all devices."
                 : "Rendimiento impecable en todos los dispositivos."}
@@ -58,11 +58,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Exclusive Menu Page:"
                   : "Página Exclusiva para el Menú:"}
-              </span>{" "}
+              </h2>{" "}
               <ul className="ml-2 flex flex-col gap-2 font-medium font-secondary text-sexto">
                 <li>
                   {language === "en"
@@ -86,11 +86,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Comprehensive Portfolio Dashboard:"
                   : "Dashboard Integral del Portafolio:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "An intuitive panel that allows you to create, edit, and manage projects with ease. Organize categories, track progress, and maintain full control over your portfolio."
                 : "Un panel intuitivo que permite crear, editar y gestionar proyectos de manera fácil. Organiza categorías, realiza un seguimiento del progreso y mantén un control total sobre tu portafolio."}
@@ -99,11 +99,11 @@ const Page = () => {
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
-              <span className="text-cuarto font-semibold text-fluidBig">
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
                   ? "Secure and Authorized Access:"
                   : "Acceso Seguro y Autorizado:"}
-              </span>{" "}
+              </h2>{" "}
               {language === "en"
                 ? "The dashboard includes robust security measures, ensuring that only authorized emails can access it, keeping your portfolio management safe and secure."
                 : "El dashboard cuenta con robustas medidas de seguridad, asegurando que solo los correos electrónicos autorizados puedan acceder, manteniendo segura la gestión de tu portafolio."}

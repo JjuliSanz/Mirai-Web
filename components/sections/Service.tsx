@@ -28,6 +28,8 @@ const Service = () => {
           className="w-full max-w-[98%] 360:max-w-[95%] max-h-[98vh] lg:max-h-[95vh] mx-auto flex flex-col lg:flex-row justify-center items-center gap-4 backdrop-blur-md p-2 sm:p-4  relative rounded-xl"
         >
           <Background isInView={isInView} />
+
+          <h2 className="sr-only">Your Custom Website</h2>
           <m.div className="w-full lg:w-[60%] flex flex-col gap-2 sm:gap-4 items-center justify-center ">
             <NoiseText
               text={
@@ -50,7 +52,7 @@ const Service = () => {
                         : "Diseños a Medida:"}
                     </span>{" "}
                     {language === "en"
-                      ? "Unique, visually stunning layouts that bring your brand to life."
+                      ? "Unique and visually stunning layouts that bring your brand to life."
                       : "Diseños únicos y visualmente impactantes que dan vida a tu marca."}
                   </m.li>
                 }
@@ -62,7 +64,7 @@ const Service = () => {
                   <m.li style={{ textShadow: "0px 0px 10px var(--cuarto)" }}>
                     <span className="text-cuarto font-semibold text-fluidBig ">
                       {language === "en"
-                        ? "Responsive and Mobile-First Development:"
+                        ? "Responsive and Mobile-First:"
                         : "Desarrollo Responsivo y Prioridad en Móviles:"}
                     </span>{" "}
                     {language === "en"

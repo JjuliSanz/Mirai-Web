@@ -10,7 +10,7 @@ const Letter = ({
   data_text: string;
 }) => {
   return (
-    <h2
+    <span
       className="font-logo text-cuarto leading-none inline-block font-bold z-10 tracking-[10px] glitch layers-text"
       data-text={data_text}
       style={{
@@ -18,14 +18,14 @@ const Letter = ({
         filter: "drop-shadow(0 1px 3px)",
       }}
     >
-      <span>{letter}</span>
-    </h2>
+      {letter}
+    </span>
   );
 };
 
 const HeroPhrase = () => {
   return (
-    <m.div
+    <m.h2
       variants={opacityAnimation}
       className="self-center flex flex-col items-center justify-center gap-4 "
     >
@@ -40,7 +40,7 @@ const HeroPhrase = () => {
         <Letter letter="A" data_text="A" />
         <Letter letter="B" data_text="B" />
       </div>
-    </m.div>
+    </m.h2>
   );
 };
 

@@ -29,9 +29,9 @@ const secondaryFont = Rajdhani({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.miraiweblab.com"),
-  title: "MIRAI WEB LAB",
+  title: "MIRAI WEB LAB | Future-Driven Web Development Agency",
   description:
-    "We specialize in web development, digital design, and creative solutions with futuristic, innovative concepts. Our approach is all about creating immersive, visually striking websites that feel like stepping into a neon-lit world of endless possibilities.",
+    "Inspired by the word '未来' (meaning 'future' in Japanese), our mission is to craft cutting-edge digital experiences that push the boundaries of creativity and technology.",
   keywords: [
     "agency",
     "webdesign",

@@ -28,6 +28,8 @@ const About = () => {
         >
           <Background isInView={isInView} />
 
+          <h2 className="sr-only">About Us</h2>
+
           <NoiseText
             text={language === "en" ? "ABOUT US" : "SOBRE NOSOTROS"}
             addClass="tracking-wider font-bold text-center neon font-primary"
@@ -40,19 +42,15 @@ const About = () => {
             text={
               language === "en" ? (
                 <>
-                  Inspired by the word{" "}
-                  <span className="font-semibold italic">未来</span> meaning
-                  &quot;future&quot; in Japanese, our mission is to craft
-                  cutting-edge digital experiences that push the boundaries of
-                  creativity and technology.
+                  Inspired by the Japanese word{" "}
+                  <span className="font-semibold italic">未来</span> (meaning
+                  &quot;future&quot;), Mirai Web Lab is a web development agency crafting cutting-edge digital experiences. We specialize in custom website development and SEO-optimized solutions that push the boundaries of creativity and technology.
                 </>
               ) : (
                 <>
-                  Inspirado por la palabra{" "}
-                  <span className="font-semibold italic">未来</span>, que
-                  significa &quot;futuro&quot; en japonés, nuestra misión es
-                  crear experiencias digitales de vanguardia que lleven los
-                  límites de la creatividad y la tecnología más allá.
+                  Inspirados por la palabra japonesa{" "}
+                  <span className="font-semibold italic">未来</span> (que
+                  significa &quot;futuro&quot;), en Mirai Web Lab somos una agencia de desarrollo web que crea experiencias digitales innovadoras. Nos especializamos en desarrollo de sitios web a medida y soluciones optimizadas para SEO, llevando la creatividad y la tecnología al siguiente nivel.
                 </>
               )
             }
@@ -68,8 +66,8 @@ const About = () => {
           <NoiseText
             text={
               language === "en"
-                ? "In a world driven by rapid innovation, staying ahead means staying bold. We fuse technology, creativity, and culture to build futuristic, pixel-perfect solutions that leave a lasting impact. Our studio thrives on exploring the edges of digital design, creating experiences that are as visually captivating as they are functional."
-                : "En un mundo impulsado por la innovación rápida, estar a la vanguardia significa ser audaz. Fusionamos tecnología, creatividad y cultura para construir soluciones futuristas y precisas que dejan una impresión duradera. Nuestro estudio se destaca en explorar los límites del diseño digital, creando experiencias visualmente cautivadoras y funcionales."
+                ? "In a world driven by rapid innovation, standing out requires bold, pixel-perfect designs. Our expertise in responsive web design, front-end development, and digital branding ensures that every project is visually stunning, high-performing, and built for growth."
+                : "En un mundo impulsado por la innovación constante, destacar requiere diseños audaces y pixel-perfect. Nuestra experiencia en diseño web responsivo, desarrollo front-end y branding digital garantiza que cada proyecto sea visualmente impactante, de alto rendimiento y diseñado para el crecimiento."
             }
             addClass="font-secondary font-medium"
             customStyle={{
@@ -83,8 +81,8 @@ const About = () => {
           <NoiseText
             text={
               language === "en"
-                ? "At Mirai Web Lab, we understand that your brand is your identity. We craft unique, futuristic designs that not only represent your business but also capture your audience's attention. Our work is bold, vibrant, and memorable, ensuring your project stands out in a crowded digital world."
-                : "En Mirai Web Lab, entendemos que tu marca es tu identidad. Creamos diseños únicos y futuristas que no solo representan tu negocio, sino que también capturan la atención de tu audiencia. Nuestro trabajo es audaz, vibrante y memorable, asegurando que tu proyecto destaque en un mundo digital saturado."
+                ? "At Mirai Web Lab, we know that your website is more than just a platform—it's your brand's digital identity. Our futuristic, user-centered designs engage audiences, enhance user experience, and drive business success. "
+                : "En Mirai Web Lab, sabemos que tu sitio web es más que una plataforma: es la identidad digital de tu marca. Nuestros diseños futuristas y centrados en el usuario atraen audiencias, mejoran la experiencia de usuario y potencian el éxito de tu negocio."
             }
             addClass="font-secondary font-medium"
             customStyle={{

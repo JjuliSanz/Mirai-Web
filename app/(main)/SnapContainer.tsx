@@ -65,7 +65,7 @@ const SnapContainer = () => {
           src="/video-bg-4R.gif"
           width={500}
           height={500}
-          alt=""
+          alt="Background Web Image"
           className="w-full h-full object-cover"
         />
       </div>

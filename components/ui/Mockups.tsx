@@ -56,7 +56,7 @@ const Mockups = () => {
               width={500}
               height={500}
               className="w-full h-full object-cover"
-              alt=""
+              alt="Tablet Mockup Image"
             />
           </div>
         </m.div>
@@ -76,7 +76,7 @@ const Mockups = () => {
               width={500}
               height={500}
               className="w-full h-full object-cover"
-              alt=""
+              alt="Mobile Mockup Image"
             />
           </div>
         </m.div>
@@ -93,7 +93,7 @@ const Mockups = () => {
               width={500}
               height={500}
               className="h-full w-full object-cover object-top rounded-lg"
-              alt=""
+              alt="Laptop Mockup Image"
             />
           </div>
         </div>
@@ -117,7 +117,7 @@ const Mockups = () => {
               width={500}
               height={500}
               className="h-full w-full object-cover rounded-lg"
-              alt=""
+              alt="Desktop Mockup Image"
             />
           </div>
         </div>

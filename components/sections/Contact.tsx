@@ -48,6 +48,7 @@ const Contact = () => {
         >
           <Background isInView={isInView} />
 
+          <h2 className="sr-only">Contact</h2>
           <m.div className="w-full flex flex-col gap-6 sm:gap-8 items-center justify-center ">
             <NoiseText
               text={language === "en" ? "CONTACT US" : "CONTACTANOS"}
@@ -58,6 +59,7 @@ const Contact = () => {
             {/* SOCIALS */}
             <m.div className="w-full flex flex-wrap gap-4 items-center justify-center ">
               {/* INSTAGRAM */}
+              <h3 className="sr-only">Instagram</h3>
               <NoiseText
                 text={
                   <Link
@@ -79,29 +81,8 @@ const Contact = () => {
                 variantProp={opacityAnimation}
               />
 
-              {/* LINKEDIN */}
-              {/* <NoiseText
-                text={
-                  <Link
-                    href=""
-                    target="_blank"
-                    className="flex flex-wrap items-center justify-center gap-2 p-2 transition ease-in-out duration-300 bg-primero/50 rounded-lg hover:bg-primero/80"
-                    style={{
-                      boxShadow: "0 1px 5px 1px var(--quinto)",
-                      textShadow: "0px 0px 10px var(--cuarto)",
-                    }}
-                  >
-                    <LinkedinIcon className="w-6 h-6" />
-                    <span className="font-secondary font-bold text-fluid">
-                      {" "}
-                      MiraiWebLab
-                    </span>
-                  </Link>
-                }
-                variantProp={opacityAnimation}
-              /> */}
-
               {/* MAIL */}
+              <h3 className="sr-only">Mail</h3>
               <NoiseText
                 text={
                   <Link
