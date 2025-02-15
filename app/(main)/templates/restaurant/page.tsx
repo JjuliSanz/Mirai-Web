@@ -227,120 +227,172 @@ const Page = () => {
               </m.button>
             ))}
           </m.div>
-          {/* DESCRIPTION */}
-          <m.ul className="list-disc list-inside flex flex-col gap-2 font-medium font-secondary text-sexto text-fluid">
+          {/* TEMPLATE DESCRIPTION */}
+          <m.ul className="flex flex-col gap-2 font-medium font-secondary text-sexto text-fluid">
+            {/* CUSTOM LANDING PAGE */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Responsive Design:"
-                  : "Diseño Responsivo:"}
+                  ? "🎨 Customizable Landing Page:"
+                  : "🎨 Landing Page Personalizable:"}
               </h2>{" "}
               {language === "en"
-                ? "The page is optimized to adapt to any device, ensuring a smooth and consistent experience."
-                : "La página está optimizada para adaptarse a cualquier dispositivo, garantizando una experiencia fluida y consistente."}
+                ? "A unique and adaptable design that reflects your restaurant's identity. Highlight your values, services, and specialties with a professional style that builds trust and strengthens your brand."
+                : "Un diseño único y adaptable que refleja la identidad de tu restaurante. Destaca tus valores, servicios y especialidades con un estilo profesional que genera confianza y refuerza tu marca."}
             </m.li>
+            {/* RESPONSIVE DESIGN */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Customizable Landing Page:"
-                  : "Landing Page Personalizable:"}
+                  ? "📱 Responsive Design:"
+                  : "📱 Diseño Responsivo:"}
               </h2>{" "}
               {language === "en"
-                ? "A unique and adaptable design that reflects your business identity, highlighting the restaurant's values and services with a style that reinforces a professional image and builds customer trust."
-                : "Diseño único y adaptable que refleja la identidad de tu negocio, destacando los valores y servicios del restaurante, con un estilo que refuerza la imagen profesional y transmite confianza a los clientes."}
+                ? "The page is optimized to adapt to any device, ensuring a smooth and consistent experience on mobile, tablet, and desktop."
+                : "Tu sitio web se adapta perfectamente a cualquier dispositivo, garantizando una experiencia fluida y consistente en móviles, tablets y computadoras."}
             </m.li>
+            {/* OPTIMIZED EXPERIENCE */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Enhanced User Experience:"
-                  : "Mejora de la Experiencia del Usuario:"}
+                  ? "⚡ Optimized User Experience:"
+                  : "⚡ Experiencia de Usuario Optimizada:"}
               </h2>{" "}
-              {language === "en"
-                ? "Intuitive navigation, fast load times, and an attractive design to captivate your customers from the first moment."
-                : "Navegación intuitiva, tiempos de carga rápidos y diseño atractivo para cautivar a tus clientes desde el primer momento."}
-            </m.li>
-            <m.li
-              variants={opacityAnimation}
-              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
-            >
-              <h2 className="inline text-cuarto font-semibold text-fluidBig">
-                {language === "en"
-                  ? "Comprehensive Restaurant Information:"
-                  : "Información Completa del Restaurante:"}
-              </h2>{" "}
-              {language === "en"
-                ? "Includes dedicated sections to detail location, business hours, contact information, and links to social media."
-                : "Incluye secciones dedicadas para detallar ubicación, horarios de atención, datos de contacto y enlaces a redes sociales."}
-            </m.li>
-            <m.li
-              variants={opacityAnimation}
-              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
-            >
-              <h2 className="inline text-cuarto font-semibold text-fluidBig">
-                {language === "en"
-                  ? "Exclusive Menu Page:"
-                  : "Página Exclusiva para el Menú:"}
-              </h2>{" "}
-              <ul className="ml-2 flex flex-col gap-2 font-medium font-secondary text-sexto">
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
                 <li>
                   {language === "en"
-                    ? "- Menu organized by categories to make it easier to find dishes."
-                    : "- Menú organizado por categorías para facilitar la búsqueda de platos."}
+                    ? "- Intuitive navigation"
+                    : "- Navegación intuitiva"}{" "}
                 </li>
                 <li>
                   {language === "en"
-                    ? "- High-quality images of the dishes to capture customers' attention."
-                    : "- Imágenes de alta calidad de los platillos para captar la atención de los clientes."}
+                    ? "- Fast loading times"
+                    : "- Tiempos de carga rápidos"}{" "}
                 </li>
                 <li>
                   {language === "en"
-                    ? "- Detailed description of each dish, including ingredients and prices."
-                    : "- Descripción detallada de cada platillo, incluyendo ingredientes y precios."}
+                    ? "- Engaging design to captivate customers from the first visit"
+                    : "- Diseño atractivo para cautivar a tus clientes desde el primer momento"}{" "}
                 </li>
               </ul>
             </m.li>
+            {/* INFORMATION */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
+                
                 {language === "en"
-                  ? "Optional Shopping Cart:"
-                  : "Carrito de Compras Opcional:"}
+                  ? "📍 Comprehensive Restaurant Information:"
+                  : "📍 Información Completa del Restaurante:"}
               </h2>{" "}
-              <ul className="ml-2 flex flex-col gap-2 font-medium font-secondary text-sexto">
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
                 <li>
                   {language === "en"
-                    ? "- Functionality to calculate the total per product and the overall total."
-                    : "- Funcionalidad para calcular el total por producto y el total general."}
+                    ? "- Interactive location map"
+                    : "- Mapa interactivo de ubicación"}{" "}
                 </li>
                 <li>
                   {language === "en"
-                    ? "- Option to send the order directly to the restaurant for customer convenience."
-                    : "- Opción de enviar el pedido directamente al restaurante para mayor comodidad del cliente."}
+                    ? "- Up-to-date business hours"
+                    : "- Horarios de atención actualizado"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Direct contact options and social media links"
+                    : "- Contacto directo y enlaces a redes sociales"}{" "}
                 </li>
               </ul>
             </m.li>
+            {/* MENU PAGE */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Search Engine Optimization (SEO):"
-                  : "Optimización para Motores de Búsqueda (SEO):"}
+                  ? "📜 Exclusive Menu Page."
+                  : "📜 Página Exclusiva para el Menú."}
+              </h2>{" "}
+            </m.li>
+            {/* MENU CATEGORY */}
+            <m.li
+              variants={opacityAnimation}
+              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
+            >
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
+                {language === "en"
+                  ? "🍽️ Category-based menu organization for easy dish discovery."
+                  : "🍽️ Menú organizado por categorías para facilitar la búsqueda de platos."}
+              </h2>{" "}
+            </m.li>
+            {/* PRODUCT IMAGES */}
+            <m.li
+              variants={opacityAnimation}
+              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
+            >
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
+                {language === "en"
+                  ? "📷 High-quality dish images to attract customers."
+                  : "📷 Imágenes de alta calidad para atraer la atención de los clientes."}
+              </h2>{" "}
+            </m.li>
+            {/* MENU DESCRIPTIONS */}
+            <m.li
+              variants={opacityAnimation}
+              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
+            >
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
+                {language === "en"
+                  ? "📝 Detailed descriptions, including ingredients and prices."
+                  : "📝 Descripciones detalladas, incluyendo ingredientes y precios."}
+              </h2>{" "}
+            </m.li>
+            {/* CARRITO */}
+            <m.li
+              variants={opacityAnimation}
+              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
+            >
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
+                {language === "en"
+                  ? "🛒 Optional Shopping Cart:"
+                  : "🛒 Carrito de Compras Opcional:"}
+              </h2>{" "}
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
+                <li>
+                  {language === "en"
+                    ? "- Automatically calculates product totals and final costs"
+                    : "- Cálculo automático del total por producto y del costo final"}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Option to send the order directly to the restaurant for customer convenience"
+                    : "- Opción de enviar pedidos directamente al restaurante para mayor comodidad"}
+                </li>
+              </ul>
+            </m.li>
+            {/* SEO */}
+            <m.li
+              variants={opacityAnimation}
+              style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
+            >
+              <h2 className="inline text-cuarto font-semibold text-fluidBig">
+                {language === "en"
+                  ? "🔍 Search Engine Optimization (SEO):"
+                  : "🔍 Optimización para Motores de Búsqueda (SEO):"}
               </h2>{" "}
               {language === "en"
-                ? "Technical setup and structured content to improve the restaurant's visibility on Google and other search engines."
+                ? "Technical setup and structured content to boost your restaurant's visibility on Google and other search engines."
                 : "Configuración técnica y contenido estructurado para mejorar la visibilidad del restaurante en Google y otros buscadores."}
             </m.li>
           </m.ul>

@@ -57,96 +57,159 @@ const Page = () => {
             Ecommerce Web
           </m.h1>
           <m.ul className="list-disc list-inside flex flex-col gap-2 font-medium font-secondary text-sexto text-fluid">
+            {/* PRODUCTS CATEGORY */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Responsive Design:"
-                  : "Diseño Responsivo:"}
+                  ? "🛍️ Organized by Categories:"
+                  : "🛍️ Organizado por Categorías:"}
               </h2>{" "}
               {language === "en"
-                ? "The page is optimized to adapt to any device, ensuring a smooth and consistent experience."
-                : "La página está optimizada para adaptarse a cualquier dispositivo, garantizando una experiencia fluida y consistente."}
+                ? "Easily navigate products with a structured layout, simplifying the shopping experience and helping customers find what they need quickly."
+                : "Navegación sencilla con productos estructurados en categorías, facilitando la búsqueda y mejorando la experiencia de compra."}
             </m.li>
+            {/* PRODUCT PAGE */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Enhanced User Experience:"
-                  : "Mejora de la Experiencia del Usuario:"}
+                  ? "📦 Individual Product Pages:"
+                  : "📦 Páginas de Producto Individuales:"}
               </h2>{" "}
-              {language === "en"
-                ? "Intuitive navigation, fast load times, and an attractive design to captivate your customers from the first moment."
-                : "Navegación intuitiva, tiempos de carga rápidos y diseño atractivo para cautivar a tus clientes desde el primer momento."}
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
+                <li>
+                  {language === "en"
+                    ? "- High-quality images to showcase products in detail"
+                    : "- Imágenes de alta calidad para destacar cada producto"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Clear and concise descriptions to inform buyers"
+                    : "- Descripciones claras y detalladas para informar a los compradores"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Transparent pricing to ensure trust and easy decision-making"
+                    : "- Precios transparentes para generar confianza y facilitar decisiones"}{" "}
+                </li>
+              </ul>
             </m.li>
+            {/* SHOPPING CART */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Organized by Categories:"
-                  : "Organizado por Categorías:"}
+                  ? "🛒 User-Friendly Shopping Cart:"
+                  : "🛒 Carrito de Compras Amigable:"}
               </h2>{" "}
-              {language === "en"
-                ? "Simplify the shopping experience with products grouped into easy-to-navigate categories."
-                : "Simplifica la experiencia de compra con productos organizados en categorías fáciles de navegar."}
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
+                <li>
+                  {language === "en"
+                    ? "- A seamless interface for reviewing selections"
+                    : "- Interfaz intuitiva para revisar selecciones"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Automatic total calculation for a hassle-free experience"
+                    : "- Cálculo automático del total para una experiencia sin complicaciones"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Smooth transition to checkout for easy purchasing"
+                    : "- Transición fluida al proceso de pago"}{" "}
+                </li>
+              </ul>
             </m.li>
+            {/* CHECKOUT */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Individual Product Pages:"
-                  : "Páginas de Producto Individuales:"}
+                  ? "💳 Streamlined Checkout Process:"
+                  : "💳 Proceso de Pago Simplificado:"}
               </h2>{" "}
-              {language === "en"
-                ? "Highlight each product with high-quality images, detailed descriptions, and pricing to help customers make informed decisions."
-                : "Destaca cada producto con imágenes de alta calidad, descripciones detalladas y precios para ayudar a los clientes a tomar decisiones informadas."}
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
+                <li>
+                  {language === "en"
+                    ? "- Secure and intuitive payment flow to increase conversions"
+                    : "- Flujo de pago seguro e intuitivo para maximizar conversiones"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Optimized design to reduce cart abandonment"
+                    : "- Diseño optimizado para reducir el abandono del carrito"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Multiple payment options for customer convenience"
+                    : "- Opciones de pago múltiples para mayor comodidad del cliente"}{" "}
+                </li>
+              </ul>
             </m.li>
+            {/* RESPONSIVE DESIGN */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "User-Friendly Shopping Cart:"
-                  : "Carrito de Compras Amigable:"}
+                  ? "📱 Responsive Design:"
+                  : "📱 Diseño Responsivo:"}
               </h2>{" "}
               {language === "en"
-                ? "A simple interface for customers to review their selections, calculate totals, and proceed with their purchase."
-                : "Una interfaz simple para que los clientes revisen sus selecciones, calculen totales y completen su compra."}
+                ? "The page is optimized to adapt to any device, ensuring a smooth and consistent experience on mobile, tablet, and desktop."
+                : "Tu sitio web se adapta perfectamente a cualquier dispositivo, garantizando una experiencia fluida y consistente en móviles, tablets y computadoras."}
             </m.li>
+            {/* OPTIMIZED EXPERIENCE */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Streamlined Checkout Process:"
-                  : "Proceso de Pago Simplificado:"}
+                  ? "⚡ Optimized User Experience:"
+                  : "⚡ Experiencia de Usuario Optimizada:"}
               </h2>{" "}
-              {language === "en"
-                ? "Secure and intuitive checkout designed to maximize conversions and minimize cart abandonment."
-                : "Proceso de pago seguro e intuitivo diseñado para maximizar conversiones y minimizar el abandono del carrito."}
+              <ul className="ml-2 flex flex-col gap-2 text-fluid font-medium font-secondary text-sexto">
+                <li>
+                  {language === "en"
+                    ? "- Intuitive navigation"
+                    : "- Navegación intuitiva"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Fast loading times"
+                    : "- Tiempos de carga rápidos"}{" "}
+                </li>
+                <li>
+                  {language === "en"
+                    ? "- Engaging design to captivate customers from the first visit"
+                    : "- Diseño atractivo para cautivar a tus clientes desde el primer momento"}{" "}
+                </li>
+              </ul>
             </m.li>
+            {/* SEO */}
             <m.li
               variants={opacityAnimation}
               style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
             >
               <h2 className="inline text-cuarto font-semibold text-fluidBig">
                 {language === "en"
-                  ? "Search Engine Optimization (SEO):"
-                  : "Optimización para Motores de Búsqueda (SEO):"}
+                  ? "🔍 Search Engine Optimization (SEO):"
+                  : "🔍 Optimización para Motores de Búsqueda (SEO):"}
               </h2>{" "}
               {language === "en"
-                ? "Technical setup and structured content to improve the restaurant's visibility on Google and other search engines."
-                : "Configuración técnica y contenido estructurado para mejorar la visibilidad del restaurante en Google y otros buscadores."}
+                ? "Technical setup and structured content to boost your ecommerce's visibility on Google and other search engines."
+                : "Configuración técnica y contenido estructurado para mejorar la visibilidad del ecommerce en Google y otros buscadores."}
             </m.li>
           </m.ul>
         </m.div>

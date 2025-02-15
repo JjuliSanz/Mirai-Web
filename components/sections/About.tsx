@@ -44,13 +44,21 @@ const About = () => {
                 <>
                   Inspired by the Japanese word{" "}
                   <span className="font-semibold italic">未来</span> (meaning
-                  &quot;future&quot;), Mirai Web Lab is a web development agency crafting cutting-edge digital experiences. We specialize in custom website development and SEO-optimized solutions that push the boundaries of creativity and technology.
+                  &quot;future&quot;), Mirai Web Lab is a web development agency
+                  dedicated to building cutting-edge digital experiences. We
+                  specialize in custom website development, responsive web
+                  design, and high-performance web applications that push the
+                  boundaries of creativity and technology.
                 </>
               ) : (
                 <>
                   Inspirados por la palabra japonesa{" "}
                   <span className="font-semibold italic">未来</span> (que
-                  significa &quot;futuro&quot;), en Mirai Web Lab somos una agencia de desarrollo web que crea experiencias digitales innovadoras. Nos especializamos en desarrollo de sitios web a medida y soluciones optimizadas para SEO, llevando la creatividad y la tecnología al siguiente nivel.
+                  significa &quot;futuro&quot;), Mirai Web Lab es una agencia de
+                  desarrollo web dedicada a crear experiencias digitales
+                  innovadoras. Nos especializamos en desarrollo de sitios web de alto
+                  rendimiento, llevando la creatividad y la tecnología al
+                  siguiente nivel.
                 </>
               )
             }
@@ -66,8 +74,8 @@ const About = () => {
           <NoiseText
             text={
               language === "en"
-                ? "In a world driven by rapid innovation, standing out requires bold, pixel-perfect designs. Our expertise in responsive web design, front-end development, and digital branding ensures that every project is visually stunning, high-performing, and built for growth."
-                : "En un mundo impulsado por la innovación constante, destacar requiere diseños audaces y pixel-perfect. Nuestra experiencia en diseño web responsivo, desarrollo front-end y branding digital garantiza que cada proyecto sea visualmente impactante, de alto rendimiento y diseñado para el crecimiento."
+                ? "In an era of rapid innovation, standing out requires more than just good design—it demands bold, pixel-perfect digital solutions. Our expertise spans front-end development, UI/UX design, and digital branding, ensuring that every project is visually stunning, highly responsive, and optimized for growth."
+                : "En una era de innovación constante, destacar requiere soluciones digitales audaces y precisas. Nuestra experiencia abarca desarrollo front-end, diseño UI/UX y branding digital, garantizando que cada proyecto sea visualmente impactante, responsivo y optimizado para el crecimiento."
             }
             addClass="font-secondary font-medium"
             customStyle={{
@@ -81,8 +89,8 @@ const About = () => {
           <NoiseText
             text={
               language === "en"
-                ? "At Mirai Web Lab, we know that your website is more than just a platform—it's your brand's digital identity. Our futuristic, user-centered designs engage audiences, enhance user experience, and drive business success. "
-                : "En Mirai Web Lab, sabemos que tu sitio web es más que una plataforma: es la identidad digital de tu marca. Nuestros diseños futuristas y centrados en el usuario atraen audiencias, mejoran la experiencia de usuario y potencian el éxito de tu negocio."
+                ? "At Mirai Web Lab, we believe that your website is more than just a platform—it's the digital identity of your brand. Our futuristic, user-centered designs not only captivate audiences but also enhance user experience, improve search engine visibility, and drive business success."
+                : "En Mirai Web Lab, creemos que tu sitio web es la identidad digital de tu marca. Nuestros diseños futuristas y centrados en el usuario no solo cautivan a tu audiencia, sino que también mejoran la experiencia de usuario, aumentan la visibilidad en los motores de búsqueda y potencian el éxito de tu negocio."
             }
             addClass="font-secondary font-medium"
             customStyle={{
