@@ -13,27 +13,27 @@ import useLanguageStore from "@/store/languageStore";
 const images = [
   {
     id: 1,
-    src: "/imgs/ecommerce/ecommerce-home.png",
+    src: "/imgs/ecommerce/ecommerce-home.webp",
     alt: "Ecommerce Web Design 1",
   },
   {
     id: 2,
-    src: "/imgs/ecommerce/ecommerce-product.png",
+    src: "/imgs/ecommerce/ecommerce-product.webp",
     alt: "Ecommerce Web Design 2",
   },
   {
     id: 3,
-    src: "/imgs/ecommerce/ecommerce-product-tablet.png",
+    src: "/imgs/ecommerce/ecommerce-product-tablet.webp",
     alt: "Ecommerce Web Design 3",
   },
   {
     id: 4,
-    src: "/imgs/ecommerce/ecommerce.png",
+    src: "/imgs/ecommerce/ecommerce.webp",
     alt: "Ecommerce Web Design 4",
   },
   {
     id: 5,
-    src: "/imgs/ecommerce/ecommerce-tablet.png",
+    src: "/imgs/ecommerce/ecommerce-tablet.webp",
     alt: "Ecommerce Web Design 5",
   },
 ];

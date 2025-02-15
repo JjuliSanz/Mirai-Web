@@ -4,7 +4,7 @@ import { opacityAnimation } from "@/variants";
 
 const HeroLogo = () => {
   return (
-    <m.h2
+    <m.h1
       variants={opacityAnimation}
       className="self-center flex flex-col items-center justify-center gap-2 "
     >
@@ -28,7 +28,7 @@ const HeroLogo = () => {
       >
         来
       </span>
-    </m.h2>
+    </m.h1>
   );
 };
 

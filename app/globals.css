@@ -84,20 +84,6 @@ body {
   }
 }
 
-.segundoButtonShadow {
-  box-shadow: 0px 5px 15px 2px var(--segundo);
-}
-
-.segundoButtonShadowHover:hover {
-  box-shadow: 0px 0px 10px 10px var(--segundo);
-}
-
-.box-shadow-black {
-  -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
-}
-
 /* SWIPER CSS */
 
 /* Base slide styles */
@@ -604,15 +590,6 @@ body {
   filter: url(#noise);
 
   /* animation: fadeOut 2s 2s forwards; */
-}
-
-.text {
-  opacity: 0;
-  /* color: var(--quinto); */
-  /* font-size: 1rem; */
-  /* font-weight: bold; */
-  /* z-index: 2; */
-  /* animation: showText 2s 2s forwards; */
 }
 
 @keyframes fadeOut {

@@ -7,17 +7,17 @@ import useLanguageStore from "@/store/languageStore";
 const images = [
   {
     id: 1,
-    src: "/imgs/dashboard/mustang-dashboard.png",
+    src: "/imgs/dashboard/mustang-dashboard.webp",
     alt: "Portfolio Web Design 1",
   },
   {
     id: 2,
-    src: "/imgs/dashboard/savory-add.png",
+    src: "/imgs/dashboard/savory-add.webp",
     alt: "Portfolio Web Design 2",
   },
   {
     id: 3,
-    src: "/imgs/dashboard/savory-edit.png",
+    src: "/imgs/dashboard/savory-edit.webp",
     alt: "Portfolio Web Design 3",
   },
 ];

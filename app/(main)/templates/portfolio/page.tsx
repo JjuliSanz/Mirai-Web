@@ -7,47 +7,47 @@ import useLanguageStore from "@/store/languageStore";
 const images = [
   {
     id: 1,
-    src: "/imgs/portfolio/portfolio-hero.png",
+    src: "/imgs/portfolio/portfolio-hero.webp",
     alt: "Portfolio Web Design 1",
   },
   {
     id: 2,
-    src: "/imgs/portfolio/portfolio-about.png",
+    src: "/imgs/portfolio/portfolio-about.webp",
     alt: "Portfolio Web Design 2",
   },
   {
     id: 3,
-    src: "/imgs/portfolio/html-portfolio-about.png",
+    src: "/imgs/portfolio/html-portfolio-about.webp",
     alt: "Portfolio Web Design 3",
   },
   {
     id: 4,
-    src: "/imgs/portfolio/portfolio-projects.png",
+    src: "/imgs/portfolio/portfolio-projects.webp",
     alt: "Portfolio Web Design 4",
   },
   {
     id: 5,
-    src: "/imgs/portfolio/portfolio-contact.png",
+    src: "/imgs/portfolio/portfolio-contact.webp",
     alt: "Portfolio Web Design 5",
   },
   {
     id: 6,
-    src: "/imgs/portfolio/htmlPortfolio.png",
+    src: "/imgs/portfolio/htmlPortfolio.webp",
     alt: "Portfolio Web Design 6",
   },
   {
     id: 7,
-    src: "/imgs/portfolio/portfolio-education.png",
+    src: "/imgs/portfolio/portfolio-education.webp",
     alt: "Portfolio Web Design 7",
   },
   {
     id: 8,
-    src: "/imgs/portfolio/portfolio-project.png",
+    src: "/imgs/portfolio/portfolio-project.webp",
     alt: "Portfolio Web Design 8",
   },
   {
     id: 9,
-    src: "/imgs/portfolio/htmlPortfolio-services.png",
+    src: "/imgs/portfolio/htmlPortfolio-services.webp",
     alt: "Portfolio Web Design 9",
   },
 ];

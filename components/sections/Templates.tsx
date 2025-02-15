@@ -47,25 +47,25 @@ const imageVariant = {
 const Templates = () => {
   const projects = [
     {
-      imageSrc: "/imgs/gourmet/template-menu.png",
+      imageSrc: "/imgs/gourmet/template-menu.webp",
       title: "Restaurants",
       id: "1",
       page: "/templates/restaurant",
     },
     {
-      imageSrc: "/imgs/dashboard/mustang-dashboard.png",
+      imageSrc: "/imgs/dashboard/mustang-dashboard.webp",
       title: "Dashboards",
       id: "2",
       page: "/templates/dashboard",
     },
     {
-      imageSrc: "/imgs/portfolio/portfolio-hero.png",
+      imageSrc: "/imgs/portfolio/portfolio-hero.webp",
       title: "Portfolios",
       id: "3",
       page: "/templates/portfolio",
     },
     {
-      imageSrc: "/imgs/ecommerce/ecommerce-home.png",
+      imageSrc: "/imgs/ecommerce/ecommerce-home.webp",
       title: "Ecommerces",
       id: "4",
       page: "/templates/ecommerce",

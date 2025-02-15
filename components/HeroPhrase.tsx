@@ -25,7 +25,7 @@ const Letter = ({
 
 const HeroPhrase = () => {
   return (
-    <m.h2
+    <m.h1
       variants={opacityAnimation}
       className="self-center flex flex-col items-center justify-center gap-4 "
     >
@@ -40,7 +40,7 @@ const HeroPhrase = () => {
         <Letter letter="A" data_text="A" />
         <Letter letter="B" data_text="B" />
       </div>
-    </m.h2>
+    </m.h1>
   );
 };
 

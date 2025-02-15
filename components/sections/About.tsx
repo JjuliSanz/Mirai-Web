@@ -32,7 +32,7 @@ const About = () => {
 
           <NoiseText
             text={language === "en" ? "ABOUT US" : "SOBRE NOSOTROS"}
-            addClass="tracking-wider font-bold text-center neon font-primary"
+            addClass="tracking-wider font-bold text-center neon font-primary "
             fontSizeClass="text-fluidTitle"
             // customStyle={{fontSize: "clamp(0.9rem, max(5vw, 2vh), 2rem",}}
             variantProp={opacityAnimation}

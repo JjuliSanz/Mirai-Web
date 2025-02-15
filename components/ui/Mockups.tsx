@@ -52,7 +52,7 @@ const Mockups = () => {
           <div className="absolute bg-tercero rounded-s-lg h-[4px] w-[0.5px] -start-[2.5px] top-[12px] 500:h-[6px] 500:w-[0.65px] 500:-start-[3.5px] 500:top-[15px] 800:h-[10px] 800:w-[0.9px] 800:-start-[5px] 800:top-[22px]"></div>
           <div className="rounded-[0.4rem] overflow-hidden w-full h-full bg-tercero 500:rounded-[0.5rem] 800:rounded-[0.625rem]">
             <Image
-              src="/imgs/modern/mustang-menu-tablet.png"
+              src="/imgs/modern/mustang-menu-tablet.webp"
               width={500}
               height={500}
               className="w-full h-full object-cover"
@@ -72,7 +72,7 @@ const Mockups = () => {
           <div className="absolute left-1/2 top-0 -translate-x-1/2 bg-tercero rounded-b-[0.2rem] w-[15px] 360:w-[20px] h-[1.5px] 360:h-[2.5px] 500:w-[30px] 500:h-[3.5px] 800:w-[45px] 800:h-[5.5px]"></div>
           <div className="rounded-[0.4rem] overflow-hidden w-full h-full bg-tercero 500:rounded-[0.5rem] 800:rounded-[0.625rem]">
             <Image
-              src="/imgs/simple/centenario-about2-mobile.png"
+              src="/imgs/simple/centenario-about2-mobile.webp"
               width={500}
               height={500}
               className="w-full h-full object-cover"
@@ -89,7 +89,7 @@ const Mockups = () => {
         <div className="relative mx-auto border-tercero bg-tercero border-[4px] rounded-t-lg h-[65px] 360:h-[75px] w-[120px] 360:w-[130px] 500:border-[5px] 500:h-[115px] 500:w-[185px] 800:border-[6px] 800:h-[170px] 800:w-[300px]">
           <div className="rounded-lg overflow-hidden w-full h-full bg-tercero">
             <Image
-              src="/imgs/gourmet/template-laptop.png"
+              src="/imgs/gourmet/template-laptop.webp"
               width={500}
               height={500}
               className="h-full w-full object-cover object-top rounded-lg"
@@ -113,7 +113,7 @@ const Mockups = () => {
         <div className="relative mx-auto border-tercero bg-tercero border-[8px] rounded-t-lg h-[90px] 360:h-[105px] w-[175px] 360:w-[192px] 500:border-[10px] 500:h-[165px] 500:w-[280px] 800:border-[12px] 800:h-[240px] 800:w-[420px]">
           <div className="rounded-lg overflow-hidden h-[80px] 360:h-[90px] 500:h-[150px] 800:h-[210px]">
             <Image
-              src="/imgs/ecommerce/ecommerce-product.png"
+              src="/imgs/ecommerce/ecommerce-product.webp"
               width={500}
               height={500}
               className="h-full w-full object-cover rounded-lg"
@@ -146,20 +146,3 @@ const Mockups = () => {
 
 export default Mockups;
 
-{
-  /* <div className="flex flex-col absolute z-0 top-[-50%] left-1/2 -translate-x-1/2">
-  <div className="relative mx-auto border-tercero bg-tercero border-[12px] rounded-t-lg h-[220px] w-[384px]">
-    <div className="rounded-lg overflow-hidden h-[196px]">
-      <Image
-        src="/imgs/ecommerce/ecommerce-product.png"
-        width={500}
-        height={500}
-        className="h-full w-full object-cover rounded-lg"
-        alt=""
-      />
-    </div>
-  </div>
-  <div className="relative mx-auto bg-segundo rounded-b-lg h-[32px] w-[384px]"></div>
-  <div className="relative mx-auto bg-tercero rounded-b-lg h-[72px] w-[106px]"></div>
-</div> */
-}

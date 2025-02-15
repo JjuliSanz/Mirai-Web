@@ -104,6 +104,7 @@ const Contact = () => {
                 variantProp={opacityAnimation}
               />
             </m.div>
+
             {/* FORM */}
             <form
               onSubmit={handleSubmit}
