@@ -3,6 +3,7 @@ import "./globals.css";
 // import { Open_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import { Rajdhani, Noto_Sans_JP } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 const logoFont = Noto_Sans_JP({
   weight: ["400", "700"],
@@ -25,7 +26,6 @@ const secondaryFont = Rajdhani({
   display: "swap",
   variable: "--secondary-font",
 });
-
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.miraiweblab.com"),
@@ -71,8 +71,8 @@ export default function RootLayout({
         className={`${primaryFont.variable} ${secondaryFont.variable} ${logoFont.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
-      {/* <body className={` antialiased`}>{children}</body> */}
     </html>
   );
 }
