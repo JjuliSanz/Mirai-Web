@@ -1,0 +1,33 @@
+// Aparecer elementos de la lista uno por uno
+      for (let i = 0; i < 9; i++) {
+        await animate(
+          `.list-item-${i}`,
+          { opacity: 1, y: 0 },
+          { duration: 0.3 }
+        );
+      }
+
+      // Esperar unos segundos
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+
+      // Desaparecer elementos de la lista uno por uno
+      for (let i = 0; i < 9; i++) {
+        await animate(
+          `.list-item-${i}`,
+          { opacity: 0, y: 20 },
+          { duration: 0.3 }
+        );
+      }
+
+      // Aparecer imágenes una por una
+      for (let i = 0; i < images.length; i++) {
+        await animate(`.image-${i}`, { opacity: 1 }, { duration: 0.3 });
+      }
+
+      // Esperar unos segundos
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+
+      // Desaparecer imágenes una por una
+      for (let i = 0; i < images.length; i++) {
+        await animate(`.image-${i}`, { opacity: 0 }, { duration: 0.3 });
+      }

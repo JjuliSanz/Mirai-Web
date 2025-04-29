@@ -27,7 +27,7 @@ const HeroPhrase = () => {
   return (
     <m.h1
       variants={opacityAnimation}
-      className="self-center flex flex-col items-center justify-center gap-4 "
+      className="self-center flex flex-col items-center justify-center gap-4"
     >
       <div className="flex flex-col gap-2 items-center justify-center">
         <Letter letter="W" data_text="W" />

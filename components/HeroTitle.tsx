@@ -27,7 +27,7 @@ const HeroTitle = () => {
   return (
     <m.h1
       variants={opacityAnimation}
-      className="flex flex-col items-center justify-center gap-2 "
+      className="flex flex-col items-center justify-center gap-2"
     >
       <Letter data_text="M" letter="M" />
       <Letter data_text="I" letter="I" />

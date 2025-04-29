@@ -36,15 +36,15 @@ const Contact = () => {
     <LazyMotion features={domAnimation}>
       <m.section
         id="contact"
-        className="w-full h-screen relative flex items-center justify-center overflow-hidden z-10"
-        style={{ scrollSnapAlign: "center" }}
+        className="w-full h-screen relative flex items-center justify-center  z-10"
+        // style={{ scrollSnapAlign: "center" }}
       >
         <m.div
           initial="hidden"
           animate={isInView && "visible"}
           variants={cont}
           ref={ref}
-          className="w-full max-w-[95%] max-h-[95vh] mx-auto flex flex-col md:flex-row justify-center items-center  backdrop-blur-md bg-primero/50 p-4 md:p-6 relative rounded-xl"
+          className="w-full max-w-[95%] mx-auto flex flex-col md:flex-row justify-center items-center backdrop-blur-md bg-primero/50 p-4 md:p-6 relative rounded-xl"
         >
           <Background isInView={isInView} />
 
@@ -163,7 +163,8 @@ const Contact = () => {
                         name="email"
                         id="email"
                         placeholder="What's your email?"
-                        className="bg-primero/50 py-2 md:py-4 px-6 text-quinto placeholder-quinto rounded-lg font-medium font-secondary text-fluidBig focus:outline-none border border-cuarto focus:border-quinto focus:bg-primero focus:scale-95 transition ease-in-out duration-300"
+                        data-lenis-prevent
+                        className="bg-primero/50 py-2 md:py-4 px-6 text-quinto placeholder-quinto rounded-lg font-medium font-secondary text-fluidBig focus:outline-none border border-cuarto focus:border-quinto focus:bg-primero focus:scale-95 transition ease-in-out duration-300 "
                         style={{ boxShadow: "0 1px 5px 1px var(--quinto)" }}
                       />
                     </div>

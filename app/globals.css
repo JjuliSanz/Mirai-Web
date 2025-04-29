@@ -22,13 +22,6 @@ body {
   color: var(--quinto);
 }
 
-.section-snap {
-  container-type: scroll-state;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
-
-
 .shadow-text {
   color: var(--quinto);
   text-shadow: var(--cuarto) 2px 2px 0px, var(--primero) 4px 4px 0px;
@@ -57,7 +50,7 @@ body {
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   padding: 0;
   margin: 0;
   scrollbar-width: auto;

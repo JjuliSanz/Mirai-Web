@@ -4,6 +4,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import { Rajdhani, Noto_Sans_JP } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import LenisScrollProvider from "@/components/providers/LenisProvider";
 
 const logoFont = Noto_Sans_JP({
   weight: ["400", "700"],
@@ -70,8 +71,10 @@ export default function RootLayout({
       <body
         className={`${primaryFont.variable} ${secondaryFont.variable} ${logoFont.variable} antialiased`}
       >
-        {children}
-        <Analytics />
+        <LenisScrollProvider>
+          {children}
+          <Analytics />
+        </LenisScrollProvider>
       </body>
     </html>
   );

@@ -16,15 +16,16 @@ const About = () => {
     <LazyMotion features={domAnimation}>
       <m.section
         id="about"
-        className="w-full h-screen relative flex items-center justify-center overflow-hidden  z-10 "
-        style={{ scrollSnapAlign: "center" }}
+        className="w-full h-screen relative flex items-center justify-center   z-10 "
+        // style={{ scrollSnapAlign: "center" }}
       >
         <m.div
           initial="hidden"
           animate={isInView && "visible"}
           variants={cont}
           ref={ref}
-          className="w-full max-w-[98%] sm:max-w-[95%] max-h-[98vh] mx-auto flex flex-col justify-center items-center gap-2 sm:gap-4 backdrop-blur-md  p-6 overflow-hidden relative rounded-xl"
+          // className="w-full max-w-[98%] sm:max-w-[95%] max-h-[98vh] mx-auto flex flex-col justify-center items-center gap-2 sm:gap-4 backdrop-blur-md p-6 overflow-hidden relative rounded-xl"
+          className="w-full max-w-[98%] sm:max-w-[95%] mx-auto flex flex-col justify-center items-center gap-2 sm:gap-4 backdrop-blur-md p-6 overflow-hidden relative rounded-xl"
         >
           <Background isInView={isInView} />
 

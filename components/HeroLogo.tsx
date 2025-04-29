@@ -6,7 +6,7 @@ const HeroLogo = () => {
   return (
     <m.h1
       variants={opacityAnimation}
-      className="self-center flex flex-col items-center justify-center gap-2 "
+      className="self-center flex flex-col items-center justify-center gap-2"
     >
       <span
         className="font-logo text-cuarto leading-none inline-block font-bold z-10 tracking-[10px] glitch layers"

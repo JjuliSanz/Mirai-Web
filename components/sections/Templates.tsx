@@ -84,8 +84,8 @@ const Templates = () => {
   return (
     <LazyMotion features={domAnimation}>
       <m.section
-        className="h-dvh w-full relative flex items-center justify-center overflow-hidden  z-10"
-        style={{ scrollSnapAlign: "center" }}
+        className="h-dvh w-full relative flex items-center justify-center z-10"
+        // style={{ scrollSnapAlign: "center" }}
         id="templates"
       >
         <m.div
@@ -93,7 +93,7 @@ const Templates = () => {
           animate={isInView && "visible"}
           variants={opacityContainer}
           ref={ref}
-          className="w-full max-w-[95%] !h-full max-h-[95vh] lg:max-h-[90vh] mx-auto flex flex-col lg:flex-row justify-between items-center relative rounded-xl"
+          className="w-full max-w-[95%] !h-full mx-auto flex flex-col lg:flex-row justify-between items-center relative rounded-xl"
         >
           <m.div className="z-50 w-full lg:w-[50%] lg:h-full flex flex-col gap-4 lg:gap-0 items-center justify-center lg:justify-between">
             <m.h2
