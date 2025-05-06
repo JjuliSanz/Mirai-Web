@@ -107,7 +107,7 @@ const Modal = ({ images }: { images: Array<Image> }) => {
                   alt={image.alt}
                   width={1000}
                   height={1000}
-                  className="w-auto object-scale-down  rounded"
+                  className="w-auto object-scale-down rounded"
                   data-swiper-parallax-opacity="0"
                   data-swiper-parallax-scale="0.6"
                   data-swiper-parallax-duration="800"

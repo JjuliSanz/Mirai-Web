@@ -70,6 +70,12 @@ const Templates = () => {
       id: "4",
       page: "/templates/ecommerce",
     },
+    {
+      imageSrc: "/imgs/business/business-hero.webp",
+      title: "Business",
+      id: "5",
+      page: "/templates/business",
+    },
   ];
   const ref = useRef(null);
   const isInView = useInView(ref);

@@ -42,6 +42,12 @@ const projects = [
     id: "4",
     page: "/templates/ecommerce",
   },
+  {
+    imageSrc: "/imgs/business/business-hero.webp",
+    title: "Business",
+    id: "5",
+    page: "/templates/business",
+  },
 ];
 
 const TemplatesSlider = () => {

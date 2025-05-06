@@ -6,28 +6,48 @@ import { m, useAnimate, LazyMotion, domAnimation } from "framer-motion";
 const images = [
   {
     id: 1,
-    src: "/imgs/ecommerce/ecommerce-home.webp",
-    alt: "Portfolio Web Design 1",
+    src: "/imgs/business/business-hero.webp",
+    alt: "Business Web Design 1",
   },
   {
     id: 2,
-    src: "/imgs/ecommerce/ecommerce-product.webp",
-    alt: "Portfolio Web Design 2",
+    src: "/imgs/business/business-2.webp",
+    alt: "Business Web Design 2",
   },
   {
     id: 3,
-    src: "/imgs/ecommerce/ecommerce-product-tablet.webp",
-    alt: "Portfolio Web Design 3",
+    src: "/imgs/business/business-3.webp",
+    alt: "Business Web Design 3",
   },
   {
     id: 4,
-    src: "/imgs/ecommerce/ecommerce.webp",
-    alt: "Portfolio Web Design 4",
+    src: "/imgs/business/business-4.webp",
+    alt: "Business Web Design 4",
   },
   {
     id: 5,
-    src: "/imgs/ecommerce/ecommerce-tablet.webp",
-    alt: "Portfolio Web Design 5",
+    src: "/imgs/business/business-5.webp",
+    alt: "Business Web Design 5",
+  },
+  {
+    id: 6,
+    src: "/imgs/business/business-6.webp",
+    alt: "Business Web Design 6",
+  },
+  {
+    id: 7,
+    src: "/imgs/business/business-7.webp",
+    alt: "Business Web Design 7",
+  },
+  {
+    id: 8,
+    src: "/imgs/business/business-8.webp",
+    alt: "Business Web Design 8",
+  },
+  {
+    id: 9,
+    src: "/imgs/business/business-9.webp",
+    alt: "Business Web Design 9",
   },
   // {
   //   id: 6,
@@ -221,7 +241,7 @@ const Insta = () => {
           initial={{ opacity: 0 }}
           className="title text-8xl z-20 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 tracking-wider font-bold text-center neon font-primary"
         >
-          YOUR ECOMMERCE WEBSITE
+          YOUR BUSINESS WEBSITE
         </m.h1>
 
         {/* TEMPLATE DESCRIPTION */}
@@ -243,7 +263,7 @@ const Insta = () => {
             style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
           >
             <h2 className="inline text-cuarto font-semibold text-[80px] leading-none">
-              🛍️ Organized by Categories
+              🎨 Customizable Landing Page
             </h2>
           </m.li>
           {/* INFORMATION */}
@@ -253,7 +273,7 @@ const Insta = () => {
             style={{ textShadow: "0px 0px 10px var(--cuarto)" }}
           >
             <h2 className="inline text-cuarto font-semibold text-[80px] leading-none">
-              📦 Individual Product Pages
+              📍 Comprehensive Business Information
             </h2>{" "}
           </m.li>
           <m.li
