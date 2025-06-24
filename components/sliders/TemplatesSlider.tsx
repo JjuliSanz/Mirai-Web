@@ -25,27 +25,33 @@ const projects = [
     page: "/templates/restaurant",
   },
   {
+      imageSrc: "/imgs/linkinbio/linkbio-crema.webp",
+      title: "LinkInBio",
+      id: "2",
+      page: "/templates/linkinbio",
+    },
+  {
     imageSrc: "/imgs/dashboard/mustang-dashboard.webp",
     title: "Dashboards",
-    id: "2",
+    id: "3",
     page: "/templates/dashboard",
   },
   {
     imageSrc: "/imgs/portfolio/htmlPortfolio.webp",
     title: "Portfolios",
-    id: "3",
+    id: "4",
     page: "/templates/portfolio",
   },
   {
     imageSrc: "/imgs/ecommerce/ecommerce-home.webp",
     title: "Ecommerces",
-    id: "4",
+    id: "5",
     page: "/templates/ecommerce",
   },
   {
     imageSrc: "/imgs/business/business-hero.webp",
     title: "Business",
-    id: "5",
+    id: "6",
     page: "/templates/business",
   },
 ];
