@@ -48,7 +48,7 @@ const Page = () => {
           initial="hidden"
           animate="visible"
           variants={templatesContainer}
-          className="backdrop-blur-[5px] bg-primero/70 rounded px-4 w-full flex flex-col gap-2 items-center justify-center overflow-hidden z-10"
+          className="backdrop-blur-[5px] bg-primero/70 rounded px-4 py-2 w-full flex flex-col gap-2 items-center justify-center overflow-hidden z-10"
         >
           <m.h1
             variants={opacityAnimation}
