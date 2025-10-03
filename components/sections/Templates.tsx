@@ -59,27 +59,33 @@ const Templates = () => {
       page: "/templates/linkinbio",
     },
     {
+      imageSrc: "/imgs/club/club-1.webp",
+      title: "FootballClub",
+      id: "3",
+      page: "/templates/club",
+    },
+    {
       imageSrc: "/imgs/dashboard/mustang-dashboard.webp",
       title: "Dashboards",
-      id: "3",
+      id: "4",
       page: "/templates/dashboard",
     },
     {
       imageSrc: "/imgs/portfolio/portfolio-hero.webp",
       title: "Portfolios",
-      id: "4",
+      id: "5",
       page: "/templates/portfolio",
     },
     {
       imageSrc: "/imgs/ecommerce/ecommerce-home.webp",
       title: "Ecommerces",
-      id: "5",
+      id: "6",
       page: "/templates/ecommerce",
     },
     {
       imageSrc: "/imgs/business/business-hero.webp",
       title: "Business",
-      id: "6",
+      id: "7",
       page: "/templates/business",
     },
   ];
